@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel = "stylesheet" type="text/css"
+    href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 </head>
 <!--Table-->
 <body>
-    <div classs = title > simple calculator </div>
+    <div classs = title > Simple Calculator App
         <table name ="result">
             <tr>
                 <td colspan="3"><input type = "text" id = "result"/>
                 <!-- clear() will clear the value-->        
-                <input type = "button" value = "c" onclick = "clr()"/>
+                <input type = "button" value = "CLEAR" onclick = "clr()"/>
                 </td>
             </tr>
             <tr>
@@ -43,6 +45,7 @@
                 <td><input type = "button" value = "*" onclick= "dis('*')"/> </td>
             </tr>
         </table>
+        </div>
     <script src="app.js"></script>
 </body>
 </html>
